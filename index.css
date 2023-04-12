@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #e1e1e1;
+    margin: 0 auto;
+    width: 1024px;
+    text-align: center;
+}
+.logo {
+    margin-top: 50px;
+    width: 150px;
+}
+h1 {
+    font-size: 38px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+}
+.email{
+    padding: 20px;
+    width: 600px;
+    height: 20px;
+    border: 1px solid #989898;
+    border-radius: 10px 10px 0 0;
+}
+.email:focus {
+    padding: 19px;
+    border: 2px solid red;
+    outline: none;
+}
+.password {
+    padding: 20px;
+    width: 600px;
+    height: 20px;
+    border: 1px solid #989898;
+    border-radius: 0 0 10px 10px;
+}
+.password:focus {
+    padding: 19px;
+    border: 2px solid red;
+    outline: none;
+}
+form div.resetPassword{
+    text-align: right;
+    margin: 10px 205px;
+    padding: 10px;
+}
+form div a{
+    text-decoration: none;
+    color: red;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.button1 {
+    margin: 15px auto;
+    width: 605px;
+}
+.button1:active {
+    border: 2px solid red;
+    padding: 1px;
+    border-radius: 10px;
+    width: 606px;
+    margin: 12px auto;
+
+}
+.button1 input{
+    padding: 10px;
+    width: 600px;
+    border-radius: 10px;
+    border: none;
+    background: red;
+    color: white;
+    font-weight: bold;
+}
+.button1 input:hover{
+    background: #ad0000;
+}
+.button1 input:active {
+    padding: 10px;
+    margin: auto;
+}
+.button2 {
+    margin: 0px auto;
+    width: 605px;
+}
+.button2:active {
+    border: 2px solid #3a3a3a;
+    padding: 1px;
+    border-radius: 10px;
+    width: 606px;
+    margin: -3px auto;
+}
+.button2 input{
+    padding: 10px;
+    width: 600px;
+    border-radius: 10px;
+    border: none;
+    background: #4b4b4b;
+    color: white;
+    font-weight: bold;
+}
+.button2 input:hover{
+    background: #3a3a3a;
+}
+.button2 input:active {
+    padding: 10px;
+    margin: auto;
+}
+footer a {
+    text-decoration: none;
+}
+footer a img {
+    width: 40px;
+    margin: 35px 5px 0 5px;
+    border-radius: 10px;
+}
+.EngFlag {
+    opacity: 50%;
+    cursor: not-allowed;
+}
+.Vie {
+    display: none;
+}
